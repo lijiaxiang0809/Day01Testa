@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="img_left_width">80dp</dimen>
+    <dimen name="img_left_height">100dp</dimen>
+    <dimen name="tv_zh_title_size">20sp</dimen>
+    <dimen name="card_padding">10dp</dimen>
+    <dimen name="card_margin">15dp</dimen>
+    <dimen name="card_corner">15dp</dimen>
+    <dimen name="ll_margin_left">20dp</dimen>
+</resources>

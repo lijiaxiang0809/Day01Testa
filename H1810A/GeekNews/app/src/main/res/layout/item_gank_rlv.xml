@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:padding="@dimen/card_padding"
+    app:cardCornerRadius="@dimen/card_corner">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#B5E4EB"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/img_android"
+            android:layout_width="80dp"
+            android:layout_height="120dp"
+            android:src="@mipmap/ic_android" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img_android"
+            android:text="标题"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/img_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/img_android"
+            android:layout_marginLeft="30dp"
+            android:src="@mipmap/ic_author" />
+
+        <TextView
+            android:id="@+id/tv_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_author"
+            android:layout_toRightOf="@id/img_android"
+            android:text="作者" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_author"
+            android:layout_alignParentRight="true"
+            android:text="时间" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/img_author"
+            android:layout_toLeftOf="@id/tv_time"
+            android:src="@mipmap/ic_fab_calendar" />
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
